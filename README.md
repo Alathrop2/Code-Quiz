@@ -26,6 +26,8 @@ jquery
 
 # Deployed Project
 
+https://alathrop2.github.io/Code-Quiz/
+
 # Screenshot
 
 ![Imgur](https://i.imgur.com/m7SiO3b.png)
