@@ -4,7 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css"
+    />
+    <title>Code Quiz!</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header id="header" class="header">
+      <h1>So, You Want To Be a Programmer?</h1>
+      <p>Take this quiz to see if you have what it takes!</p>
+    </header>
+    <main id="quiz-box" class="d-flex flex-row quiz-box">
+      <div id="questionBox" class="question-box">
+        <h2 class="questionText"></h2>
+      </div>
+      <div id="answerContainer" class="container d-flex m-auto">
+        <button
+          id="answerButton1"
+          class="d-flex align-items-center btn btn-lg btn-primary mt-lg align-self-space-around m-auto"
+        ></button>
+        <button
+          id="answerButton2"
+          class="d-flex align-items-center btn btn-lg btn-primary mt-lg align-self-space-around m-auto"
+        ></button>
+        <button
+          id="answerButton3"
+          class="d-flex align-items-center btn btn-lg btn-primary mt-lg align-self-space-around m-auto"
+        ></button>
+        <!-- <button
+          id="answerButton4"
+          class="d-flex align-items-center btn btn-lg btn-primary mt-lg align-self-space-around m-auto"
+        >
+          answer 4
+        </button> -->
+      </div>
+      <button
+        id="startButton"
+        class="startButton d-flex align-items-center btn btn-lg btn-dark mt-lg align-self-space-around m-auto"
+      >
+        Start Quiz!
+      </button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
